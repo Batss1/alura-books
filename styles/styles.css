@@ -1,10 +1,13 @@
+@import url("./header.css");
+
 :root {
     --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
 }
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 
 body {
