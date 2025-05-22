@@ -37,6 +37,8 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para o seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
+
+    <!-- Seção Novos Lançamentos -->
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
         <!-- Slider main container -->
@@ -61,6 +63,7 @@
         <div class="swiper-button-next"></div>
 
         <div class="card">
+            <!-- 1ª linha -->
             <div class="card__descricao">
                 <!--1ª coluna do flex -->
                 <div class="descricao">
@@ -71,6 +74,55 @@
                 <!--2ª coluna do flex -->
                 <img src="./assets/img/Angular.svg" alt="Imagem do" class="descricao__imagem">
             </div>
+            <!-- 2º linha -->
+            <div class="card__botoes">
+                <!--1ª coluna do flex -->
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="./assets/img/Favoritos.svg" alt="Favoritar livro"></li>
+                    <li class="botoes__item"><img src="./assets/img/Sacola.svg" alt="Adicionar no carrinho de compras"></li>
+                </ul>
+                <!--2ª coluna do flex -->
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Livros Mais Vendidos -->
+    <section class="carrossel">
+
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+         <!-- Slider main container -->
+        <div class="swiper">
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="./assets/img/Construct2.svg" alt="Livro Construct2"></div>
+            <div class="swiper-slide"><img src="./assets/img/Gestão.svg" alt="Livro Gestão"></div>
+            <div class="swiper-slide"><img src="./assets/img/MetricasAgeis.svg" alt="Livro Metricas Ageis"></div>
+            <div class="swiper-slide"><img src="./assets/img/Nodejs.svg" alt="Livro Nodejs"></div>
+            <div class="swiper-slide"><img src="./assets/img/Arquitetura.svg" alt="Arquitetura"></div>
+            <div class="swiper-slide"><img src="./assets/img/UX.svg" alt="Livro UX"></div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <img src="./assets/img/Estrelinhas.svg" alt="Avaliação 5 estrelas" class="descricao__estrelinhas">
+                    <h3 class="descricao__titulo">Autora do Mês</h4>
+                    <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                </div>
+                <img src="./assets/img/Perfil-escritora.svg" alt="Foto da escritora Juliana Agarikov">
+            </div>
+
             <div class="card__botoes">
                 <ul class="botoes">
                     <li class="botoes__item"><img src="./assets/img/Favoritos.svg" alt="Favoritar livro"></li>
@@ -78,7 +130,9 @@
                 </ul>
                 <a href="#" class="botoes__ancora">Saiba mais</a>
             </div>
-        </div> 
+        </div>
+
+
     </section>
 
     <main>
